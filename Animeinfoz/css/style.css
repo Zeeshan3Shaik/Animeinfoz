@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 0 0 20px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+  color: #e63946; /* Red */
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #2a9d8f; /* Green */
+  font-weight: bold;
+}
+
+.anime-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.anime-card {
+  background-color: white;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.anime-card:hover {
+  transform: scale(1.05);
+}
+
+.anime-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.anime-card h2 {
+  font-size: 18px;
+  margin: 15px 0 10px;
+  color: #2a9d8f; /* Green */
+}
+
+.anime-card a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #e63946; /* Red */
+  color: white;
+  text-decoration: none;
+  border-radius: 12px;
+}
+.anime-details {
+  padding: 50px 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.details-container {
+  max-width: 1000px;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.details-container img {
+  width: 60%;
+  max-width: 350px;
+  border-radius: 15px;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+}
+
+.details-text {
+  flex: 1;
+  font-size: 18px;
+  line-height: 1.7;
+  padding-left: 20px;
+}
+
+.details-text h2 {
+  margin-top: 0;
+  color: #e63946;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.details-text p {
+  margin: 12px 0;
+  color: #333;
+}
+
+.details-text strong {
+  color: #2a9d8f;
+}
+.search-container {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#searchInput {
+  width: 60%;
+  padding: 12px 20px;
+  font-size: 1.2rem;
+  border: 2px solid #ccc;
+  border-radius: 30px;
+  outline: none;
+  background-color: #fff;
+  transition: border 0.3s ease;
+}
+
+#searchInput:focus {
+  border-color: #f44336; /* red accent */
+}
+.about-section {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #f44336;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  color: #333;
+}
